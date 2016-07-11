@@ -1,0 +1,12 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item item-thumbnail-left item-text-wrap" ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.name}}">
+      <img src="http://placehold.it/50x50" />
+        <h3>{{ playlist.name }}</h3>
+        <h6>ID: {{ playlist.id }}</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint veniam nulla voluptates eius, quod enim velit alias laboriosam quis odio consequuntur deserunt, pariatur, corporis ipsa voluptatem consectetur facilis necessitatibus ea.</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
